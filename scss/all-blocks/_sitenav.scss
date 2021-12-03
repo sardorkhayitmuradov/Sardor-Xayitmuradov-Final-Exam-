@@ -1,0 +1,42 @@
+.nav {
+    max-width: 249px;
+    width: 100%;
+}
+
+.nav__list  {
+    list-style: none;
+}
+
+.nav__link {
+    color: var(--grey-color);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 643px) {
+    .nav  {
+        display: none;
+    }
+
+    .header--open .nav {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        min-width: 70vw;
+        min-height: 92vh;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background: #333A44;
+        padding: 64px 32px 24px;
+        z-index: 10;
+    }
+
+    .header--open .nav__list {
+        flex-direction: column;
+    }
+
+    .header--open .nav__item {
+        margin-bottom: 24px;
+    }
+
+}
