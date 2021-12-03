@@ -50,3 +50,16 @@
         margin-bottom: 40px;
     }
 }
+
+@media only screen and (max-width: 375px) {
+    .registration__container {
+        padding-top: 88px;
+        padding-bottom: 88px;
+    }
+
+    .registration__title {
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: -1.42857px;
+    }
+}
