@@ -15,7 +15,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1150px;
+    max-width: 1146px;
+    padding: 0 20px;
     width: 100%;
 }
 
@@ -34,6 +35,17 @@
     max-width: 359px;
 }
 
+@media only screen and (max-width: 880px) {
+    .registration__apps {
+        flex-direction: column;
+    }
+
+    .apps-links:nth-child(odd) {
+        margin-bottom: 10px;
+    }
+
+}
+
 @media only screen and (max-width: 768px) {
     .registration__container {
         padding-top: 62px;
@@ -49,9 +61,18 @@
         text-align: center;
         margin-bottom: 40px;
     }
+
+    .registration__apps {
+        flex-direction: row;
+    }
+
+    .apps-links:nth-child(odd) {
+        margin-bottom: 0;
+    }
 }
 
 @media only screen and (max-width: 375px) {
+
     .registration__container {
         padding-top: 88px;
         padding-bottom: 88px;
