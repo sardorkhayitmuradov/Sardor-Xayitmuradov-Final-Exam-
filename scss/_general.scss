@@ -30,3 +30,15 @@ img {
     height: auto;
     vertical-align: middle;
 }
+
+.hover:hover {
+    opacity: 0.6;
+}
+
+.active:active {
+    color: #FCB72B;
+}
+
+svg:hover {
+    background-color: #fff;
+}

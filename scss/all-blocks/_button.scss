@@ -7,3 +7,10 @@
     color: #FFFFFF;
     cursor: pointer;
 }
+
+.active-btn:active {
+    border: 3px solid #FCB72B;
+    background-color: #fff;
+    color: #FCB72B;
+    padding: 11px 36px;
+}
