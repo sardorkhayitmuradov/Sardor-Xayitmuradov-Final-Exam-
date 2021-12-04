@@ -35,6 +35,10 @@
     max-width: 359px;
 }
 
+.apps-links:nth-child(1) {
+    margin-right: 5px;
+}
+
 @media only screen and (max-width: 880px) {
     .registration__apps {
         flex-direction: column;
@@ -48,6 +52,7 @@
 
 @media only screen and (max-width: 768px) {
     .registration__container {
+        background: url('../../images/footer-bg-tablet.jpg');
         padding-top: 62px;
         padding-bottom: 62px;
     }
@@ -72,8 +77,8 @@
 }
 
 @media only screen and (max-width: 375px) {
-
     .registration__container {
+        background: url('../../images/footer-bg-mobile.jpg');
         padding-top: 88px;
         padding-bottom: 88px;
     }

@@ -37,6 +37,10 @@
     margin-bottom: 40px;
 }
 
+.delivery__image-mobile {
+    display: none;
+}
+
 .delivery__title {
     font-size: 24px;
     line-height: 28px;
@@ -165,5 +169,16 @@
 
     .delivery__line {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .delivery__image {
+        display: none;
+    }
+
+    .delivery__image-mobile {
+        display: inline-block;
+        margin-bottom: 30px;
     }
 }

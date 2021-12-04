@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+    <link rel="stylesheet" href="./css/mainmin.css">
     <title>Scoot</title>
 </head>
 <body>
@@ -38,6 +39,8 @@
     <main class="main">
         <section class="hero">
             <div class="container hero__container">
+                <h1 class="visually-hidden">Delivering to customers</h1>
+
                 <img src="./images/hero-bg-left-mobile.png" alt="hero-bg-left-mobile" class="hero-bg-left-mobile">
                 <img src="./images/hero-bg-left.png" alt="hero-left" width="203" height="10" class="hero-left">
                 <img src="./images/hero-bg-right.png" alt="hero-right" width="447" height="138" class="hero-right">
@@ -57,20 +60,23 @@
                 <ul class="delivery-list">
                     <li class="delivery__item">
                         <img src="./images/location.svg" alt="Delivey-Location" class="delivery__image" width="96" height="96">
+                        <img src="./images/location.svg" alt="Delivey-Location" class="delivery__image-mobile" width="56" height="56">
                         <div class="delivey-info">
                             <h2 class="delivery__title">Locate with app</h2>
                             <p class="delivery__desc">Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away. </p>
                         </div>
                     </li>
                     <li class="delivery__item">
-                        <img src="./images/location.svg" alt="Delivey-Location" class="delivery__image" width="96" height="96">
+                        <img src="./images/scooter.svg" alt="Delivey-Location" class="delivery__image" width="96" height="96">
+                        <img src="./images/scooter.svg" alt="Delivey-Location" class="delivery__image-mobile" width="56" height="56">
                         <div class="delivey-info">
                             <h2 class="delivery__title">Pick your scooter</h2>
                             <p class="delivery__desc">We show the most important info for the scooters closest to you. So you know how much charge they have left and can see roughly how much it will cost.</p>
                         </div>
                     </li>
                     <li class="delivery__item">
-                        <img src="./images/location.svg" alt="Delivey-Location" class="delivery__image" width="96" height="96">
+                        <img src="./images/ride.svg" alt="Delivey-Location" class="delivery__image" width="96" height="96">
+                        <img src="./images/ride.svg" alt="Delivey-Location" class="delivery__image-mobile" width="56" height="56">
                         <div class="delivey-info">
                             <h2 class="delivery__title">Enjoy the ride</h2>
                             <p class="delivery__desc">Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps.</p>
@@ -98,7 +104,7 @@
                             <p class="proccess__desc">Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if you want to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the coming year.</p>
                             <button class="button proccess--button hover active-btn">Learn More</button>
                         </div>
-                        <img src="./images/telemetry.jpg" alt="Telemetry-Proccess-bg" width="445" height="445" class="proccess__image">
+                        <img src="./images/city.jpg" alt="Telemetry-Proccess-bg" width="445" height="445" class="proccess__image">
                     </li>
                     <li class="proccess__item">
                         <div class="proccess-info">
@@ -106,7 +112,7 @@
                             <p class="proccess__desc">Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month.</p>
                             <button class="button proccess--button hover active-btn">Learn More</button>
                         </div>
-                        <img src="./images/telemetry.jpg" alt="Telemetry-Proccess-bg" width="445" height="445" class="proccess__image">
+                        <img src="./images/payment.jpg" alt="Telemetry-Proccess-bg" width="445" height="445" class="proccess__image">
                     </li>
                 </ul>
             </div>
@@ -118,7 +124,7 @@
                     <h3 class="registration__title">Sign up and Scoot off today</h3>
                     <div class="registration__apps">
                         <a href="#" class="apps-links hover">
-                            <img src="./images/play-market.jpg" alt="Play Market image" width="182" height="56">
+                            <img src="./images/app-store.jpg" alt="Play Market image" width="159" height="56">
                         </a>
                         <a href="#" class="apps-links hover">
                             <img src="./images/play-market.jpg" alt="Play Market image" width="182" height="56">
@@ -153,8 +159,8 @@
             </div>
 
             <div class="footer__social-links">
-                <a href="#" class="social-links active-links">
-                    <img src="./images/facebook.svg" alt="Facebook" width="24" height="24">
+                <a href="#" class="social-links">
+                    <img src="./images/facebook.svg" alt="Facebook" width="24" height="24" class="active-links">
                 </a>
                 <a href="#" class="social-links">
                     <img src="./images/twitter.svg" alt="Twitter" width="24" height="20" class="active-links">
